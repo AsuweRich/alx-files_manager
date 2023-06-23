@@ -549,7 +549,7 @@ bob@dylan:~$
 **Repo:**
 
 -   GitHub repository: `alx-files_manager`
--   File: `utils/, routes/index.js, controllers/FilesController.js`
+-   File: [`utils/`](utils/), [`routes/index.js`](routes/index.js), [`controllers/FilesController.js`](controllers/FilesController.js)
 
  Done? Help Get a sandbox
 
@@ -593,13 +593,12 @@ bob@dylan:~$ curl -XGET 0.0.0.0:5000/files/5f1e879ec7ba06511e683b22/data ; echo 
 Hello Webstack!
 
 bob@dylan:~$
-
 ```
 
 **Repo:**
 
 -   GitHub repository: `alx-files_manager`
--   File: `utils/, routes/index.js, controllers/FilesController.js`
+-   File: [`utils/`](utils/), [`routes/index.js`](routes/index.js), [`controllers/FilesController.js`](controllers/FilesController.js)
 
  Done? Help
 
@@ -632,7 +631,6 @@ Update the endpoint `GET /files/:id/data` to accept a query parameter `size`:
 ```
 bob@dylan:~$ npm run start-worker
 ...
-
 ```
 
 **Terminal 2:**
@@ -655,10 +653,9 @@ bob@dylan:~$
 bob@dylan:~$ curl -XGET 0.0.0.0:5000/files/5f1e8896c7ba06511e683b25/data?size=250 -so new_image.png ; file new_image.png
 new_image.png: PNG image data, 250 x 272, 8-bit/color RGBA, non-interlaced
 bob@dylan:~$
-
 ```
 
 **Repo:**
 
 -   GitHub repository: `alx-files_manager`
--   File: `utils/, controllers/FilesController.js, worker.js`
+-   File: [`utils/`](utils/), [`controllers/FilesController.js`](controllers/FilesController.js), [`worker.js`](worker.js)
