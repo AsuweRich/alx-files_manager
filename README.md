@@ -121,13 +121,12 @@ null
 12
 null
 bob@dylan:~$
-
 ```
 
 **Repo:**
 
 -   GitHub repository: `alx-files_manager`
--   File: `utils/redis.js`
+-   File: [`utils/redis.js`](utils/redis.js)
 
  Done? Help Get a sandbox
 
@@ -188,13 +187,12 @@ true
 4
 30
 bob@dylan:~$
-
 ```
 
 **Repo:**
 
 -   GitHub repository: `alx-files_manager`
--   File: `utils/db.js`
+-   File: [`utils/db.js`](utils/db.js)
 
  Done? Help Get a sandbox
 
@@ -225,7 +223,6 @@ Inside the folder `controllers`, create a file `AppController.js` that contai
 bob@dylan:~$ npm run start-server
 Server running on port 5000
 ...
-
 ```
 
 **Terminal 2:**
@@ -237,13 +234,12 @@ bob@dylan:~$
 bob@dylan:~$ curl 0.0.0.0:5000/stats ; echo ""
 {"users":4,"files":30}
 bob@dylan:~$
-
 ```
 
 **Repo:**
 
 -   GitHub repository: `alx-files_manager`
--   File: `server.js, routes/index.js, controllers/AppController.js`
+-   File: [`server.js`](server.js), [`routes/index.js`](routes/index.js), [`controllers/AppController.js`](controllers/AppController.js)
 
  Done? Help Get a sandbox
 
@@ -285,13 +281,12 @@ bob@dylan:~$
 bob@dylan:~$ curl 0.0.0.0:5000/users -XPOST -H "Content-Type: application/json" -d '{ "email": "bob@dylan.com" }' ; echo ""
 {"error":"Missing password"}
 bob@dylan:~$
-
 ```
 
 **Repo:**
 
 -   GitHub repository: `alx-files_manager`
--   File: `utils/, routes/index.js, controllers/UsersController.js`
+-   File: [`utils/`](utils/), [`routes/index.js`](routes/index.js), [`controllers/UsersController.js`](controllers/UsersController.js)
 
  Done? Help Get a sandbox
 
@@ -347,13 +342,12 @@ bob@dylan:~$ curl 0.0.0.0:5000/disconnect -H "X-Token: 031bffac-3edc-4e51-aaae-1
 bob@dylan:~$ curl 0.0.0.0:5000/users/me -H "X-Token: 031bffac-3edc-4e51-aaae-1c121317da8a" ; echo ""
 {"error":"Unauthorized"}
 bob@dylan:~$
-
 ```
 
 **Repo:**
 
 -   GitHub repository: `alx-files_manager`
--   File: `utils/, routes/index.js, controllers/UsersController.js, controllers/AuthController.js`
+-   File: [`utils/`](utils/), [`routes/index.js`](routes/index.js), [`controllers/UsersController.js`](controllers/UsersController.js), [`controllers/AuthController.js`](controllers/AuthController.js)
 
  Done? Help Get a sandbox
 
@@ -446,13 +440,12 @@ bob@dylan:~$
 bob@dylan:~$ ls /tmp/files_manager/
 2a1f4fc3-687b-491a-a3d2-5808a02942c9   51997b88-5c42-42c2-901e-e7f4e71bdc47
 bob@dylan:~$
-
 ```
 
 **Repo:**
 
 -   GitHub repository: `alx-files_manager`
--   File: `utils/, routes/index.js, controllers/FilesController.js`
+-   File: [`utils/`](utils/), [`routes/index.js`](routes/index.js), [`controllers/FilesController.js`](controllers/FilesController.js)
 
  Done? Help Get a sandbox
 
@@ -500,13 +493,12 @@ bob@dylan:~$
 bob@dylan:~$ curl -XGET 0.0.0.0:5000/files/5f1e8896c7ba06511e683b25 -H "X-Token: f21fb953-16f9-46ed-8d9c-84c6450ec80f" ; echo ""
 {"id":"5f1e8896c7ba06511e683b25","userId":"5f1e7cda04a394508232559d","name":"image.png","type":"image","isPublic":true,"parentId":"5f1e881cc7ba06511e683b23"}
 bob@dylan:~$
-
 ```
 
 **Repo:**
 
 -   GitHub repository: `alx-files_manager`
--   File: `utils/, routes/index.js, controllers/FilesController.js`
+-   File: [`utils/`](utils/), [`routes/index.js`](routes/index.js), [`controllers/FilesController.js`](controllers/FilesController.js)
 
  Done? Help Get a sandbox
 
@@ -552,7 +544,6 @@ bob@dylan:~$
 bob@dylan:~$ curl -XPUT 0.0.0.0:5000/files/5f1e8896c7ba06511e683b25/unpublish -H "X-Token: f21fb953-16f9-46ed-8d9c-84c6450ec80f" ; echo ""
 {"id":"5f1e8896c7ba06511e683b25","userId":"5f1e7cda04a394508232559d","name":"image.png","type":"image","isPublic":false,"parentId":"5f1e881cc7ba06511e683b23"}
 bob@dylan:~$
-
 ```
 
 **Repo:**
