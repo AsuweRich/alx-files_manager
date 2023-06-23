@@ -29,21 +29,21 @@ Resources
 
 **Read or watch**:
 
--   [Node JS getting started](https://alx-intranet.hbtn.io/rltoken/kZHDWCu20EsKxKzi51yWeg "Node JS getting started")
--   [Process API doc](https://alx-intranet.hbtn.io/rltoken/uYPplj2cPK8pcP0LtV6RuA "Process API doc")
--   [Express getting started](https://alx-intranet.hbtn.io/rltoken/SujfeWKCWmUMomfETjETEg "Express getting started")
--   [Mocha documentation](https://alx-intranet.hbtn.io/rltoken/FzEwplmoZiyGvkgKllZNJw "Mocha documentation")
--   [Nodemon documentation](https://alx-intranet.hbtn.io/rltoken/pdNNTX0OLugbhxvP3sLgOw "Nodemon documentation")
--   [MongoDB](https://alx-intranet.hbtn.io/rltoken/g1x7y_3GskzVAJBTXcSjmA "MongoDB")
--   [Bull](https://alx-intranet.hbtn.io/rltoken/NkHBpGrxnd0sK_fDPMbihg "Bull")
--   [Image thumbnail](https://alx-intranet.hbtn.io/rltoken/KX6cck2nyLpQOTDMLcwxLg "Image thumbnail")
--   [Mime-Types](https://alx-intranet.hbtn.io/rltoken/j9B0Kc-4HDKLUe88ShbOjQ "Mime-Types")
--   [Redis](https://alx-intranet.hbtn.io/rltoken/nqwKRszO8Tkj_ZWW1EFwGw "Redis")
+-   [Node JS getting started](https://nodejs.org/en/docs/guides/getting-started-guide "Node JS getting started")
+-   [Process API doc](https://node.readthedocs.io/en/latest/api/process/ "Process API doc")
+-   [Express getting started](https://expressjs.com/en/starter/installing.html "Express getting started")
+-   [Mocha documentation](https://mochajs.org "Mocha documentation")
+-   [Nodemon documentation](https://github.com/remy/nodemon#nodemon "Nodemon documentation")
+-   [MongoDB](https://github.com/mongodb/node-mongodb-native "MongoDB")
+-   [Bull](https://github.com/OptimalBits/bull "Bull")
+-   [Image thumbnail](https://www.npmjs.com/package/image-thumbnail "Image thumbnail")
+-   [Mime-Types](https://www.npmjs.com/package/mime-types "Mime-Types")
+-   [Redis](https://github.com/redis/node-redis "Redis")
 
 Learning Objectives
 -------------------
 
-At the end of this project, you are expected to be able to [explain to anyone](https://alx-intranet.hbtn.io/rltoken/88vbnogJmkEoxqu-6wAXEw "explain to anyone"), **without the help of Google**:
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/ "explain to anyone"), **without the help of Google**:
 
 -   how to create an API with Express
 -   how to authenticate a user
