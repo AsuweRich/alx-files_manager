@@ -696,6 +696,7 @@ Update the endpoint `POST /users` endpoint to start a background processing for 
 
 -    Create a `Bull` queue `userQueue`
 -    When a new user is stored (in DB), add a job to this queue with the `userId`
+
 Update the file `worker.js`:
 
 -    By using the module `Bull`, create a queue `userQueue`
